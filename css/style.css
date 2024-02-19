@@ -128,7 +128,7 @@ main {
 .centered:hover {
     height: 100%;
     width: 100%;
-    opacity: 40%;
+    opacity: 20%;
 }
 
 .centered {
@@ -145,19 +145,21 @@ main {
     justify-content: center;
 }
 
-.centered h3 {
+.centered h3 {    
     color: #FFF;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    opacity: 100%;
 }
 
-.centered h2 {
+.centered h2 {    
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
     color: #f16d7f;
+    opacity: 100%;
 }
 
 .content {
